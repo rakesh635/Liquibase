@@ -8,6 +8,7 @@ pipeline {
                // checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/rakesh635/employee_jdbc.git']]])
             /*}
         }*/
+        //test line
         stage('Build') {
             steps {
                 echo 'Clean Build'
